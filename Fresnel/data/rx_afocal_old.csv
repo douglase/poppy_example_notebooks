@@ -1,0 +1,35 @@
+# PICTURE-C PROPER Optical Prescription,,,,,,,,,,,,,,,
+# Consistant with Zemax model: picture_c_afocal_linear_v001,,,,,,,,,,,,,,,
+######################################################,,,,,,,,,,,,,,,
+# Element Types,,,,,,,,,,,,,,,
+# mirror = reflection + surface + power if FL > 0 ,,,,,,,,,,,,,,,
+# lens = transmission + surface + power if FL > 0,,,,,,,,,,,,,,,
+# dichroic = dichroic,,,,,,,,,,,,,,,
+# polarizer = polarizer,,,,,,,,,,,,,,,
+# iwc = reflection + surface + IWC routine,,,,,,,,,,,,,,,
+# lowfs = lowfs,,,,,,,,,,,,,,,
+# dm = reflection + surface + DM routine,,,,,,,,,,,,,,,
+# vvc = vvc routine,,,,,,,,,,,,,,,
+# lyot = lyot stop,,,,,,,,,,,,,,,
+# sci = science camera,,,,,,,,,,,,,,,
+# distance = free space propagation distance,,,,,,,,,,,,,,,
+######################################################,,,,,,RMS [nm],,,Cutoff [c/a],RMS,,,Cutoff [c/a],,
+# Name,Type,Focal Length [in],Distance [in],Radius [in],Angle [deg],Surf. PSD A,Surf. PSD B,Surf. PSD C,Surf. PSD D,Ref. PSD A,Ref. PSD B,Ref. PSD C,Ref. PSD D,Coating,Material
+M1,mirror,60,64.3223,12,0,12,9,4,32,0.01,9,4,32,AgSiO,none
+M2,mirror,4.3223,4.6337,1,0,5,9,4,32,0.01,9,4,32,AgSiO,none
+IWC,iwc,0,7,1.77,0,5,9,4,32,0.01,9,4,32,AgSiO,none
+FM1,mirror,0,75,1,0,5,9,4,32,0.01,9,4,32,AgSiO,none
+FM2,mirror,0,26,1,0,5,9,4,32,0.01,9,4,32,AgSiO,none
+OAP1,mirror,10.5,10.5,1,0,5,9,4,32,0.01,9,4,32,AgSiO,none
+Field Mirror,mirror,-1,7.3259,0.5,0,0,0,0,0,0,0,0,0,AgSiO,none
+OAP2,mirror,7.3259,9,1,0,5,9,4,32,0.01,9,4,32,AgSiO,none
+Dichroic,dichroic,0,4.5324,1,0,5,9,4,32,0.01,9,4,32,none,BK7
+LOWFS,lowfs,0,0,1,0,0,0,0,0,0,0,0,0,none,none
+DM,dm,0,12,0.623,0,5,9,4,32,0.01,9,4,32,Gold,none
+OAP3,mirror,21.25,21.25,1,0,5,9,4,32,0.01,9,4,32,AgSiO,none
+VVC,vvc,0,21.25,0.5,0,0,0,0,0,0,0,0,0,none,none
+OAP4,mirror,21.25,30.5,1,0,5,9,4,32,0.01,9,4,32,AgSiO,none
+Lyot Stop,lyot,0,4,0.5315,0,0,0,0,0,0,0,0,0,none,none
+SCI L1,lens,4.3191,4,1,0,5,9,4,32,0.01,9,4,32,none,BK7
+SCI L2,lens,-0.3409,5,1,0,0,9,4,0,0,9,4,0,none,BK7
+SCI Camera,sci,0,0,0,0,0,0,0,0,0,0,0,0,none,none
