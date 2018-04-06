@@ -13,4 +13,6 @@ Table of Contents:
 * [PICTURE-C Preliminary Afocal Prescription](Fresnel/PICTURE-C Preliminary Afocal Prescription.ipynb) Illustrates how create an optical system from a saved prescription file.
 
 [![DOI](https://zenodo.org/badge/17479/douglase/poppy_example_notebooks.svg)](https://zenodo.org/badge/latestdoi/17479/douglase/poppy_example_notebooks)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/douglase/poppy_example_notebooks/master)
+
 
