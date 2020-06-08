@@ -1,5 +1,5 @@
 
-Jupyter Notebooks Illustrating usage of [POPPY: Physical Optics Propagation in PYthon](http://adsabs.harvard.edu/abs/2016ascl.soft02018P). To get download the latest version of POPPY visit  https://github.com/mperrin/poppy. 
+Jupyter Notebooks Illustrating usage of [POPPY: Physical Optics Propagation in PYthon](http://adsabs.harvard.edu/abs/2016ascl.soft02018P). To get download the latest version of POPPY visit  https://github.com/spacetelescope/poppy. 
 
 For a general introduction to POPPY, see these two getting started notebooks:
 
